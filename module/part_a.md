@@ -11,9 +11,9 @@ Your output will look like this:
 ```
 C:\Users\chef\cookbooks\policyfiles> chef generate policyfile base
 Recipe: code_generator::policyfile
-  * template[C:/Users/chef/cookbooks/policyfiles/base.rb] action create
-    - create new file C:/Users/chef/cookbooks/policyfiles/base.rb
-    - update content in file C:/Users/chef/cookbooks/policyfiles/base.rb from none to 533141
+  * template[C:\chef-repo\policyfiles\base.rb] action create
+    - create new file C:\chef-repo\policyfiles\base.rb
+    - update content in file C:\chef-repo\policyfiles\base.rb from none to 533141
     (diff output suppressed by config)
 C:\Users\chef\cookbooks\policyfiles>
 ```
@@ -38,7 +38,7 @@ name 'base'
 default_source :supermarket
 
 # Specify a custom source for a cookbook:
-cookbook 'chef-client', git: 'https://github.com/anthonygrees/chef-client.git'
+cookbook 'chef-client', git: 'https://github.com/kenlangdon/chef-client.git'
 cookbook 'audit_agr', git: 'https://github.com/anthonygrees/audit_agr.git'
 
 # run_list: chef-client will run these recipes in the order specified.
@@ -76,7 +76,7 @@ Installing logrotate   2.2.0
 Installing windows     5.2.3
 Installing audit       7.3.0
 
-Lockfile written to C:/Users/chef/cookbooks/policyfiles/base.lock.json
+Lockfile written to C:\chef-repo\policyfiles\base.lock.json
 Policy revision id: f458a363e1ed148676a5ee5c9a558cb0dd3ba8581803de44de49ccd7b1d5e134
 C:\Users\chef\cookbooks\policyfiles>
 ```
@@ -140,9 +140,9 @@ You will notice that it has included more cookbooks than we specified.  This is 
       "identifier": "665de50495d89d717cd73c0cf68a15a847a621d8",
       "dotted_decimal_identifier": "28813685830310045.31943936235599498.23812500759000",
       "cache_key": "chef-client-65efbdbc8d8df7077378974a07455be06699708d",
-      "origin": "https://github.com/anthonygrees/chef-client.git",
+      "origin": "https://github.com/kenlangdon/chef-client.git",
       "source_options": {
-        "git": "https://github.com/anthonygrees/chef-client.git",
+        "git": "https://github.com/kenlangdon/chef-client.git",
         "revision": "65efbdbc8d8df7077378974a07455be06699708d"
       }
     },

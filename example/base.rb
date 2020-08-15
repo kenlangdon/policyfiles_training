@@ -2,7 +2,7 @@ name 'anthony'
 
 default_source :supermarket
 
-cookbook 'chef-client', git: 'https://github.com/anthonygrees/chef-client.git'
+cookbook 'chef-client', git: 'https://github.com/kenlangdon/chef-client.git'
 cookbook 'audit_agr', git: 'https://github.com/anthonygrees/audit_agr.git'
 cookbook 'cis-win2012r2-l1-hardening', git: 'https://github.com/anthonygrees/cis-win2012r2-l1-hardening-cookbook.git'
 

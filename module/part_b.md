@@ -18,7 +18,7 @@ $ chef update base.rb
 Your output will look something like this:
 ```
 C:\Users\chef\cookbooks\policyfiles> chef update base.rb
-Updated attributes in C:/Users/chef/cookbooks/policyfiles/base.lock.json
+Updated attributes in C:\chef-repo\policyfiles\base.lock.json
 Building policy base
 Expanded run list: recipe[audit_agr], recipe[chef-client]
 Caching Cookbooks...
@@ -29,7 +29,7 @@ Using      logrotate   2.2.0
 Using      windows     5.2.3
 Using      audit       7.3.0
 
-Lockfile written to C:/Users/chef/cookbooks/policyfiles/base.lock.json
+Lockfile written to C:\chef-repo\policyfiles\base.lock.json
 Policy revision id: 6e7735d685d3a602c7b97ae2eedaf30b126f7820a83a56abe1457aec5643d3a5
 C:\Users\chef\cookbooks\policyfiles>
 ```
