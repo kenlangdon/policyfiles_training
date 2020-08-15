@@ -1,4 +1,4 @@
-name 'anthony'
+name 'policyfiles_training'
 
 default_source :supermarket
 
